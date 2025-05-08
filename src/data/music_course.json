@@ -1,0 +1,55 @@
+{
+    "courses": [
+      {
+        "id": "1",
+        "title": "Beginner Guitar Essentials",
+        "slug": "beginner-guitar-essentials",
+        "description": "Learn the basics of guitar, including chords, strumming, and simple songs.",
+        "price": 49.99,
+        "instructor": "Emily Roberts",
+        "isFeatured": true,
+        "image": "/images/courses/guitar-beginner.jpg"
+      },
+      {
+        "id": "2",
+        "title": "Piano for Beginners",
+        "slug": "piano-for-beginners",
+        "description": "Start your piano journey with essential music theory and hands-on practice.",
+        "price": 59.99,
+        "instructor": "Michael Tran",
+        "isFeatured": false,
+        "image": "/images/courses/piano-beginner.jpg"
+      },
+      {
+        "id": "3",
+        "title": "Mastering Music Production",
+        "slug": "mastering-music-production",
+        "description": "Produce studio-quality tracks using industry-standard software and techniques.",
+        "price": 99.99,
+        "instructor": "Sarah Kim",
+        "isFeatured": true,
+        "image": "/images/courses/music-production.jpg"
+      },
+      {
+        "id": "4",
+        "title": "Drumming Fundamentals",
+        "slug": "drumming-fundamentals",
+        "description": "Learn rhythm, coordination, and basic drumming patterns to build a strong foundation.",
+        "price": 39.99,
+        "instructor": "Derek White",
+        "isFeatured": false,
+        "image": "/images/courses/drums.jpg"
+      },
+      {
+        "id": "5",
+        "title": "Vocal Training for Beginners",
+        "slug": "vocal-training-for-beginners",
+        "description": "Develop your voice with exercises on pitch, tone, and breath control.",
+        "price": 44.99,
+        "instructor": "Anna Martinez",
+        "isFeatured": true,
+        "image": "/images/courses/vocal-training.jpg"
+      }
+    ]
+  }
+  
