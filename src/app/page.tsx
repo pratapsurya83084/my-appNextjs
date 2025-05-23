@@ -1,7 +1,7 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
 import Herosection from "@/components/Herosection";
 import { StickyScrollRevealDemo } from "@/components/StickyScroll";
-
+import  {TestimonialsCards}  from '@/components/TestimonialCards'
 export default function Home() {
   return (
     <div>
@@ -10,6 +10,7 @@ export default function Home() {
     <Herosection/>
    <FeaturedCourses/>
    <StickyScrollRevealDemo/>
+ <TestimonialsCards/>
     </main>
     </div>
   );

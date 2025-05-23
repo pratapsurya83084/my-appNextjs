@@ -89,7 +89,7 @@ const content = [
 export function StickyScrollRevealDemo() {
   return (
     <div className="w-full py-">
-        <h1 className="text-center text-4xl font-bold bg-gray-900 p-10">Why Choose</h1>
+        <h1 className="text-center text-4xl font-bold bg-gray-900 p-10 dark:bg-grid-white">Why Choose</h1>
       <StickyScroll content={content} />
     </div>
   );
