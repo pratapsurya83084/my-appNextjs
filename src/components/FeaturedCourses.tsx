@@ -46,7 +46,7 @@ const FeaturedCourses = () => {
                     <p className="text-gray-500 p-3">{course.description}</p>
 
                     <Link
-                      href={`/courses/${course.slug}`}
+                      href={`/music-production`}
                       className="mt-4 bg-white text-black p-1 px-2 rounded "
                     >
                       Learn More
@@ -61,7 +61,7 @@ const FeaturedCourses = () => {
 
       <div className="text-center   mt-20  ">
         <Link
-          href={"/"}
+          href={"/courses"}
           className="px-4 py-2 rounded border border-neutral-600 text-neutral-700 bg-white
 hover:bg-gray-100 transition duration-200"
         >

@@ -8,7 +8,7 @@
         "price": 49.99,
         "instructor": "Emily Roberts",
         "isFeatured": true,
-        "image": "/images/courses/guitar-beginner.jpg"
+        "image": "/pexels-pavel-danilyuk-7520928.jpg"
       },
       {
         "id": "2",
@@ -18,7 +18,7 @@
         "price": 59.99,
         "instructor": "Michael Tran",
         "isFeatured": false,
-        "image": "/images/courses/piano-beginner.jpg"
+        "image": "/pexels-yankrukov-8520461.jpg"
       },
       {
         "id": "3",
@@ -28,7 +28,7 @@
         "price": 99.99,
         "instructor": "Sarah Kim",
         "isFeatured": true,
-        "image": "/images/courses/music-production.jpg"
+        "image": "/pexels-orbital101studio-11317799.jpg"
       },
       {
         "id": "4",
@@ -38,7 +38,7 @@
         "price": 39.99,
         "instructor": "Derek White",
         "isFeatured": false,
-        "image": "/images/courses/drums.jpg"
+        "image": "/pexels-cottonbro-5650900.jpg"
       },
       {
         "id": "5",
@@ -48,7 +48,7 @@
         "price": 44.99,
         "instructor": "Anna Martinez",
         "isFeatured": true,
-        "image": "/images/courses/vocal-training.jpg"
+        "image": "/pexels-rdne-6655698.jpg"
       }
     ]
   }

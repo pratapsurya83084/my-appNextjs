@@ -25,15 +25,16 @@ export function Navbar({ className }: { className?: string }) {
     <HoveredLink href="/courses">All Courses</HoveredLink>
     <HoveredLink href="/music-theory">Basic Music Theory</HoveredLink>
     <HoveredLink href="/advanced">Advanced Composition</HoveredLink>
-    <HoveredLink href="/courses">Songwriting</HoveredLink>
-    <HoveredLink href="/courses">Music Production</HoveredLink>
+    <HoveredLink href="/songwrite">Songwriting</HoveredLink>
+    <HoveredLink href="/music-production">Music Production</HoveredLink>
     </div>
     </MenuItem>
 
-<MenuItem setActive={setActive} active={active} item="Contact Us">
 
+<Link href={"/contact"}>
+<MenuItem setActive={setActive} active={active} item="Contact Us"></MenuItem>
 
-</MenuItem>
+</Link>
 
      </Menu>
     </div>

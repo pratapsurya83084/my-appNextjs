@@ -5,86 +5,67 @@ import { StickyScroll } from "../components/ui/sticky-scroll-reveal";
 
 const content = [
   {
-    title: "Collaborative Editing",
+    title: "Expert-Led Instruction",
     description:
-      "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
+      "Learn from industry professionals with years of experience in performance, composition, and production. Our instructors are passionate educators who tailor lessons to your skill level and musical goals.",
     content: (
-      <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
-        Collaborative Editing
+      <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-purple-600 to-indigo-600 text-white">
+        Expert-Led Instruction
       </div>
     ),
   },
   {
-    title: "Real time changes",
+    title: "Structured Curriculum",
     description:
-      "See changes as they happen. With our platform, you can track every modification in real time. No more confusion about the latest version of your project. Say goodbye to the chaos of version control and embrace the simplicity of real-time updates.",
+      "Follow a well-organized, step-by-step curriculum that ensures you build foundational skills while progressing to advanced techniques. Ideal for beginners to pros.",
     content: (
-      <div className="flex h-full w-full items-center justify-center text-white">
-        <img
-          src="/linear.webp"
-          width={300}
-          height={300}
-          className="h-full w-full object-cover"
-          alt="linear board demo"
-        />
+      <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-yellow-500 to-orange-500 text-white">
+        Structured Curriculum
       </div>
     ),
   },
   {
-    title: "Version control",
+    title: "Personalized Feedback",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+      "Get one-on-one guidance and performance reviews tailored to your progress. Improve your skills faster with constructive feedback from expert mentors.",
     content: (
-      <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] text-white">
-        Version control
+      <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-emerald-500 to-teal-600 text-white">
+        Personalized Feedback
       </div>
     ),
   },
   {
-    title: "Running out of content",
+    title: "Performance Opportunities",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+      "Showcase your talent through live recitals, recordings, and online sessions. Gain confidence and experience by performing in front of real audiences.",
     content: (
-      <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
-        Running out of content
+      <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-pink-500 to-rose-500 text-white">
+        Performance Opportunities
       </div>
     ),
   },
-
-
   {
-    title: "Running out of content",
+    title: "Modern Tools & Techniques",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+      "Learn how to use modern music production software, DAWs, and recording techniques to complement your traditional music skills.",
     content: (
-      <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
-        Running out of content
+      <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-blue-500 to-sky-600 text-white">
+        Modern Tools & Techniques
       </div>
     ),
   },
-    {
-    title: "Running out of content",
+  {
+    title: "Flexible Learning Options",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+      "Access lessons online or in-person to fit your schedule. We offer both group and private lessons to suit your learning preferences.",
     content: (
-      <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
-        Running out of content
+      <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-cyan-500 to-blue-600 text-white">
+        Flexible Learning Options
       </div>
     ),
   },
-    {
-    title: "Running out of content",
-    description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
-    content: (
-      <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
-        Running out of content
-      </div>
-    ),
-  },
-
-
 ];
+
 
 export function StickyScrollRevealDemo() {
   return (

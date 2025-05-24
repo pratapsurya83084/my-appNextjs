@@ -2,6 +2,9 @@ import FeaturedCourses from "@/components/FeaturedCourses";
 import Herosection from "@/components/Herosection";
 import { StickyScrollRevealDemo } from "@/components/StickyScroll";
 import  {TestimonialsCards}  from '@/components/TestimonialCards'
+import { CardHoverEffectDemo } from "@/components/UpcomingWebinar";
+import {AnimatedTooltipPreview} from '@/components/AnimatedTooltipPreview'
+import { WavyBackgroundDemo } from "@/components/WavyBackgroundDemo";
 export default function Home() {
   return (
     <div>
@@ -11,6 +14,9 @@ export default function Home() {
    <FeaturedCourses/>
    <StickyScrollRevealDemo/>
  <TestimonialsCards/>
+ <CardHoverEffectDemo/>
+ <WavyBackgroundDemo/>
+ {/* <AnimatedTooltipPreview/> */}
     </main>
     </div>
   );

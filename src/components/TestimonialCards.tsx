@@ -39,15 +39,21 @@ const testimonials = [
 
 export function TestimonialsCards() {
   return (
-    <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white  dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden
-       dark:bg-grid-white/[0.2]                ">
- <h2 className="text-4xl font-bold mb-10">What Our Musicians Say</h2>
-      <InfiniteMovingCards
-        items={testimonials}
-        direction="right"
-        speed="slow"
-      />
-    </div>
+<div className="h-[40rem] rounded-md flex flex-col antialiased bg-black items-center justify-center relative overflow-hidden"
+     style={{
+       backgroundImage: `linear-gradient(to right, rgba(255,255,255,0.05) 1px, transparent 5px),
+                         linear-gradient(to bottom, rgba(255,255,255,0.05) 1px, transparent 5px)`,
+       backgroundSize: '40px 40px'
+     }}>
+  <h2 className="text-2xl md:text-4xl font-bold text-white mb-10 txet-center">What Our Musicians Say</h2>
+  <InfiniteMovingCards
+    items={testimonials}
+    direction="right"
+    speed="slow"
+  />
+</div>
+
+
   );
 }
 
