@@ -1,0 +1,12 @@
+[build]
+  # Run the build command that does next build and exports static files
+  command = "npm run build"
+  
+  # Folder where the static site is exported
+  publish = "out"
+
+# Optional: Redirect all requests to index.html for client-side routing support (if needed)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
