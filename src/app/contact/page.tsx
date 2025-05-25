@@ -17,9 +17,10 @@ const Page = () => {
 
         <div className="relative z-10 max-w-4xl mx-auto text-center space-y-4 mb-10">
           <h2 className="text-3xl md:text-5xl lg:text-7xl font-bold">Contact Us</h2>
-          <p className="text-lg font-medium text-gray-300">
-            We're here to help with any questions about our courses, programs, or events.
-          </p>
+        <p className="text-lg font-medium text-gray-300">
+  We&apos;re here to help with any questions about our courses, programs, or events.
+</p>
+
         </div>
 
         <div className="relative z-10 mx-auto max-w-2xl flex flex-col justify-center overflow-hidden rounded-2xl border border-gray-800 bg-gray-900 px-6 py-8 shadow-xl">

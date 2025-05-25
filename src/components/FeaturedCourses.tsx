@@ -4,19 +4,19 @@ import CourseData from "../data/music_course.json";
 import Link from "next/link";
 import { BackgroundGradient } from "./ui/background-gradient";
 
-interface Course {
-  id: number;
-  title: string;
-  slug: string;
-  description: string;
-  price: number;
-  instructor: string;
-  isFeatured: boolean;
-  // "image": "/images/courses/guitar-beginner.jpg"
-}
+// interface Course {
+//   id: number;
+//   title: string;
+//   slug: string;
+//   description: string;
+//   price: number;
+//   instructor: string;
+//   isFeatured: boolean;
+//   // "image": "/images/courses/guitar-beginner.jpg"
+// }
 
 const FeaturedCourses = () => {
-  let featuredCourses = CourseData.courses.filter(
+  const featuredCourses = CourseData.courses.filter(
     (course) => course.isFeatured
   );
 

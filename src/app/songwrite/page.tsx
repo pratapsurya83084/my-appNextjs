@@ -20,12 +20,12 @@ const page = () => {
       </section>
 
       {/* Section: Melody Crafting */}
-      <section className="max-w-4xl mx-auto mb-12">
-        <h2 className="text-2xl font-semibold text-pink-400 mb-4">🎶 Melody Crafting</h2>
-        <p className="text-gray-300 mb-2">
-          Explore how melodies are built from scale patterns, motif development, and phrasing. Create hooks that listeners can't forget.
-        </p>
-      </section>
+  <section className="max-w-4xl mx-auto mb-12">
+  <h2 className="text-2xl font-semibold text-pink-400 mb-4">🎶 Melody Crafting</h2>
+  <p className="text-gray-300 mb-2">
+    Explore how melodies are built from scale patterns, motif development, and phrasing. Create hooks that listeners can&apos;t forget.
+  </p>
+</section>
 
       {/* Section: Song Structure */}
       <section className="max-w-4xl mx-auto mb-12">

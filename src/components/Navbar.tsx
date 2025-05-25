@@ -1,6 +1,6 @@
 "use client";
-import React, { act, useState } from "react";
-import { HoveredLink, Menu, MenuItem, ProductItem } from '@/components/ui/text-hover-effect';
+import React, {  useState } from "react";
+import { HoveredLink, Menu, MenuItem } from '@/components/ui/text-hover-effect';
 import { cn }  from '@/lib/utils/utils'
 import Link from "next/link";
 

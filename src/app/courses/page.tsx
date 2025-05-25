@@ -1,7 +1,8 @@
 'use client'
 
 import React from 'react'
-import Image from 'next/image'
+import Image from 'next/image';
+
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import CourseData from '@/data/music_course.json';
 
@@ -30,7 +31,7 @@ const Page = () => {
                 {course.description}
               </CardItem>
               <CardItem translateZ="100" className="w-full mt-4">
-                <img
+                <Image
                   src={course.image}
                   height="1000"
                   width="1000"

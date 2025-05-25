@@ -14,14 +14,13 @@ const Herosection = () => {
         <h1
         className="mt-36 sm:mt-32 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400"
         >Master the art of music</h1>
-        <p 
-        className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto"
-        >
-          Join thousands of students learning from expert instructors through
-          structured courses, interactive lessons, and real-world techniques.
-          Whether you're a beginner or refining your skills, our platform helps
-          you grow your passion for music.
-        </p>
+      <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
+  Join thousands of students learning from expert instructors through
+  structured courses, interactive lessons, and real-world techniques.
+  Whether you&rsquo;re a beginner or refining your skills, our platform helps
+  you grow your passion for music.
+</p>
+
         <div className="mt-4">
       <Button
         // borderRadius="1.75rem"
